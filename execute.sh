@@ -3,5 +3,5 @@ sh lib.sh
 
 mv output.txt output.typ
 
-typst-compile output.typ output.pdf
+typst compile output.typ output.pdf
 
