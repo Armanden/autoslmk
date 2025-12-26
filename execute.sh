@@ -1,5 +1,5 @@
 go run main.go | tee output.txt
-sh lib.sh 
+go run translate.go output.txt
 
 mv output.txt output.typ
 
