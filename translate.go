@@ -20,6 +20,7 @@ func ConvertHTMLToTypst(n *html.Node) string {
 			return fmt.Sprintf("%s\n", getInnerText(n))
 		case "strong":
 			return fmt.Sprintf("**%s**", getInnerText(n))
+		// Add more cases for lists, links, etc.
 		}
 	case html.TextNode:
 		return n.Data
